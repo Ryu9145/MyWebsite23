@@ -1,0 +1,158 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    background-image: url(../image/main.gif);
+    background-size: cover; 
+    background-color: #000000 !important;
+    background-repeat: no-repeat;
+}
+
+main {
+    flex: 1;
+}
+
+.logo{
+    font-size: 2rem;
+    font-family: 'Teroxia Demo', sans-serif;
+    color: #f5f5f5;
+
+.First-Text{    
+    background: linear-gradient(90deg, #FF5733, #FFBD33);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+                                                
+}
+
+.text{
+    margin-top: 5rem;
+}
+
+.text h2{ 
+    font-size: 3.5rem;
+    color: #d9d9d9;
+    font-family: 'Teroxia Demo', sans-serif;                                
+}
+
+.text p{
+    font-size: 1rem;
+    color: #d9d9d9;
+    font-family: "River", sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;  
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 300px;
+    white-space: nowrap;
+}
+
+.image-content img {
+    max-width:60%; 
+    height: auto;
+}   
+
+.aniamsi {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}   
+
+
+footer {  
+    margin-top: 110px;          
+    background-image: linear-gradient(180deg, #001962, #000000);
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+    
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 12px;        
+}
+
+.footer-container p {
+    margin: 5px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-container a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+} 
+
+.copy{
+    font-family: 'Teroxia Demo', sans-serif !important;
+    font-size: 12px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-description {
+    padding: 8px;
+}
+
+.card-description h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.card-description p {
+    margin-top: 4px;
+    color: #555;
+    font-size: 0.9em;
+} 
